@@ -149,7 +149,7 @@ platform-plus
 
 #### 后端部署
 - 通过git下载源码
-- 创建数据库plaftorm-plus
+- 创建数据库plaftorm(原先是plaftorm-plus，不能有中划线)
 - mysql执行sql/mysql.sql文件(oracle执行sql/oracle.sql)，初始化数据
 - 修改admin、api模块下application-dev.yml，修改MySQL、Oracle驱动、账号和密码
 - 运行PlatformAdminApplication.java启动后台管理接口服务
