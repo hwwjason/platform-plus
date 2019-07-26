@@ -8,17 +8,17 @@ spring:
       first:  #数据源1
         url: jdbc:mysql://localhost:3306/platform?allowMultiQueries=true&useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&useSSL=false&serverTimezone=UTC
         username: root
-        password: 123456
+        password: 12345678
 #        url: jdbc:oracle:thin:@localhost:1521:platform
 #        username: platform
-#        password: 123456
+#        password: 12345678
       second:  #数据源2
         url: jdbc:mysql://localhost:3306/platform?allowMultiQueries=true&useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&useSSL=false&serverTimezone=UTC
         username: root
-        password: 123456
+        password: 12345678
 #        url: jdbc:oracle:thin:@localhost:1521:platform
 #        username: platform
-#        password: 123456
+#        password: 12345678
       initial-size: 10
       max-active: 100
       min-idle: 10
@@ -35,7 +35,7 @@ spring:
         enabled: true
         url-pattern: /druid/*
         login-username: druid
-        login-password: 123456
+        login-password: 12345678
       filter:
         stat:
           log-slow-sql: true

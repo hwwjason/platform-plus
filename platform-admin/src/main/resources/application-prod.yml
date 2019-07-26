@@ -6,11 +6,11 @@ spring:
       first:
         url: jdbc:mysql://localhost:3306/platform?allowMultiQueries=true&useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&useSSL=false&serverTimezone=UTC
         username: root
-        password: 123456
+        password: 12345678
       second:
         url: jdbc:mysql://localhost:3306/platform?allowMultiQueries=true&useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&useSSL=false&serverTimezone=UTC
         username: root
-        password: 123456
+        password: 12345678
       initial-size: 10 # 初始化连接:连接池启动时创建的初始化连接数量
       max-active: 1000 # 最大活动连接:连接池在同一时间能够分配的最大活动连接的数量,如果设置为非正数则表示不限制
       min-idle: 10 # 最小空闲连接:连接池中容许保持空闲状态的最小连接数量,低于这个数量将创建新的连接,如果设置为0则不创建
@@ -27,7 +27,7 @@ spring:
         enabled: true
         url-pattern: /druid/*
         login-username: druid # sql-stat监控用户名
-        login-password: 123456 # sql-stat监控密码
+        login-password: 12345678 # sql-stat监控密码
       filter:
         stat:
           log-slow-sql: true
